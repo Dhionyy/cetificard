@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(236.85deg, #44324f 27.26%, #817f84 96.03%);
+}
+  
+.container {
+    background-color:#efefef;
+    color: #1c1c1c;
+    padding: 30px;
+    margin: 64px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil { 
+    display: flex; 
+}
+
+.titulo {
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 16px;
+}
+
+.perfil-foto {
+    border-radius:460px;
+    padding: 12px;
+    max-height: 160px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h2 {
+    font-weight: 400;
+    font-size: 24;
+}
+
+.tema button {
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 8px 16px;
+    background: #efefef;
+    border-radius: 100px;
+    border: 2px solid #1c1c1c;
+}
+
+.redes-sociais img {
+    max-width: 30px;
+}
+
+.projetos {
+    background-color: #03c5f1 ;
+    border-radius: 15px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos-titulo {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 36px;
+
+}
+
+.pojetos-item {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.pojetos-item a {
+    color:#1c1c1c;
+    text-decoration: none;
+
+}
+
+.links {
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.dark {
+    background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9);
+    
+}
+
+.dark .container {
+    background: #333439;
+    color: #f6f6f6;
+}
+
+.dark .projetos {
+    color: #1c1c1c
+}
+
+.dark .tema button {
+    background:#333439;
+    color: #f6f6f6;
+    border: 2px solid #f7f7f7;
+}
+
+.dark .links {
+    filter: invert(100%);
+}
